@@ -866,7 +866,7 @@ if (NOT ${WITH_EIGEN} MATCHES "NONE")
 endif (NOT ${WITH_EIGEN} MATCHES "NONE")
 
 if (APPLE)
-  include_directories("/usr/local/opt/openblas/include")
+  include_directories("/opt/homebrew/opt/openblas/include")
 endif (APPLE)
 
 if (USE_MKL)
