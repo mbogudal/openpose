@@ -1,4 +1,7 @@
 conda install python=3.9 --yes
+conda install -c conda-forge gst-plugins-base  --yes
+conda install -c conda-forge gst-plugins-good --yes
+conda install -c conda-forge opencv --yes
 conda install -c anaconda jupyter --yes
 conda install -c anaconda notebook --yes
 
