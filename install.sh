@@ -5,7 +5,7 @@ conda install -c conda-forge opencv --yes
 conda install -c anaconda jupyter --yes
 conda install -c anaconda notebook --yes
 
-brew install caffe
+# brew install caffe
 
 git clone git@github.com:mbogudal/openpose.git
 mkdir openpose/build
