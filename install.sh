@@ -4,6 +4,7 @@ conda install -c conda-forge gst-plugins-good --yes
 conda install -c conda-forge opencv --yes
 conda install -c anaconda jupyter --yes
 conda install -c anaconda notebook --yes
+conda install -c anaconda protobuf --yes
 
 # brew install caffe
 
@@ -18,3 +19,8 @@ mkdir openpose/build
 # python3 -c "import site; print(site.getsitepackages()[0])"
 # sudo cp python/openpose/pyopenpose.cpython-39-darwin.so /path/to/site-packages
 # python -c "import pyopenpose as op; print('PyOpenPose imported successfully')"
+
+brew install hdf5
+brew install openblas
+
+xcode-select --install
